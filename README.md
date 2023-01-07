@@ -14,10 +14,22 @@ git clone https://github.com/coderaidershaun/qwik-crash-intro.git frontend
 ## Step 2
 
 ```shell
-npm run build
+cd frontend
 ```
 
 ## Step 3
+
+```shell
+npm ci
+```
+
+## Step 4
+
+```shell
+npm run build
+```
+
+## Step 5
 
 ```shell
 npm run dev
