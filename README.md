@@ -8,7 +8,7 @@
 ## Step 1
 
 ```shell
-git clone
+git clone https://github.com/coderaidershaun/qwik-crash-intro.git frontend
 ```
 
 ## Step 2
