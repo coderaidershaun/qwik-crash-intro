@@ -14,7 +14,7 @@ git clone https://github.com/coderaidershaun/qwik-crash-intro.git frontend
 ## Step 2
 
 ```shell
-npm run build # or `yarn build`
+npm run build
 ```
 
 ## Step 3
