@@ -1,4 +1,4 @@
-# Qwik Intro Series
+# Qwik Intro Useful Links
 
 - [YouTube Series](https://youtu.be/zLHYDY9dAbs)
 - [Code Raiders](https://coderaiders.com)
