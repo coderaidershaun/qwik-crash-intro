@@ -24,7 +24,7 @@ export default component$(() => {
 
   useClientEffect$(async () => {
     const { data: authListener } = supabase.auth.onAuthStateChange(
-      async (event: string, session: any) => {
+      async (event: string) => { // session: any
         console.log(event);
 
         if (event === "SIGNED_IN") {

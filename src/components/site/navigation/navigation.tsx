@@ -10,6 +10,10 @@ import { Link } from "@builder.io/qwik-city";
 export const Navigation = component$(() => {
   const isSession = useSignal(false);
 
+  const handleLogout = $(() => {
+
+  })
+
   return (
     <nav class="bg-white py-4 px-7 sticky">
       <div class="flex justify-between items-center">
@@ -32,7 +36,7 @@ export const Navigation = component$(() => {
           {/* @ts-ignore */}
           {isSession.value && (
             <>
-              <button onClick$={undefined} class="ml-10">
+              <button onClick$={handleLogout} class="ml-10">
                 Logout
               </button>
               <Link href="/members/dashboard">
